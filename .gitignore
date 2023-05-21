@@ -132,7 +132,6 @@ dmypy.json
 .RData
 .Rhistory
 
-nbs/03*
 nbs/04*
 
 data/people/
