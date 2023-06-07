@@ -1,0 +1,59 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**420-A58-SF - Algorithmes d'apprentissage non supervisé - Hiver 2023 - Spécialisation technique en Intelligence Artificielle**
+MIT License - Copyright (c) 2023 Mikaël Swawola
+
+```{r exam3-banner, echo=FALSE, fig.cap="", out.width='100%'}
+knitr::include_graphics("static/Exam3-banner.png")
+```
+
+## Partie 3 - Prédiction des ventes de billets de cinéma (40 points)
+
+Les données utilisées pour la partie ci-dessous correspondent aux ventes totales de billets de cinéma entre le 14 mars 2018 et le 4 novembre 2018. L'objectif consiste ici à mettre en oeuvre différents modèles de prévision des séries temporelles.
+
+
+### Librairies
+
+```{r libraries}
+# À compléter au fur et à mesures de l'exercice
+```
+
+
+### Question 4-1 (8 points)
+**Charger et visualiser la série temporelle `billets.csv`. Quelle est la fréquence des observations ? Après l'examen de la visualisation, que pouvez-vous dire à propos des différentes composantes de cette série?**
+```{r q4_1}
+# Environ 3 lignes de code + Réponse rédactionnelle
+```
+
+### Question 4-2 (8 points)
+**Réalisez les prévisions à 24 jours à l'aide des modèles ETS, ARIMA, TBATS et NNAR. Affichez les 4 prévisions sur un seul et même graphique. Afin d'améliorer la lisibilité, n'affichez pas les intervals de confiance.**
+```{r q4_2}
+# Environ 12 lignes de code
+```
+
+
+### Question 4-3 (8 points)
+**Affichez un "zoom" sur le dernier cycle, incluant les prévisions et tous les modèles afin de comparer les différences. Que concluez-vous ?**
+```{r q4_3}
+# Environ #0 lignes de code + Réponse rédactionnelle
+```
+
+### Question 4-4 (8 points)
+**Vérifiez les résidus des quatre modèles obtenus. Quel modèle donne selon vous les meilleurs résultats ?**
+```{r q4_4}
+# Environ 4 lignes de code + Réponse rédactionnelle
+```
+
+### Question 4-5 (8 points)
+**En vous aidant des modèles obtenus à la question précédente, combinez les prévisions. La combinaison consiste ici à calculer la moyenne des quatre prévisions de manière à obtenir une prévision "ensembliste". Afficher sur un graphique la série et la combinaison des quatre modèles**
+```{r q4_5}
+# Environ 5 lignes de code
+```
+
+### Fin de l'examen #3 (Partie 3)
